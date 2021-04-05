@@ -18,13 +18,19 @@ Python CSV Library
 
 Run these two commands in the terminal to install the required libraries before runnning the application:
 
-'pip install fire'
+'''
 
-'pip install questionary'
+    pip install fire
+
+'''
+    
+    pip install questionary
 
 Run this command to start the application in the directory where the code is located:
 
-'python app.py'
+'''
+    
+    python app.py
 
 ---
 
@@ -46,7 +52,7 @@ Once you run 'python app.py' the project will run this function:
 
 In which it will ask the user to specify the daily rate sheet for the data. Then it will prompt the user to enter their credit score, current monthly debt, monthly income, desired loan amount, and home value.
 
-![Loan-Qualifier-Example](Loan-Qualifier/Loan-Qualifier-Example.png)
+![Loan-Qualifier-Example](Loan-Qualifier-Example.jpg)
 
 
 The application then uses some calculations such as the debt-to-income ratio, the loan-to-value-ratio, etc. in order to find the qualifying loans and filter them into a list.
