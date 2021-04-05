@@ -14,9 +14,11 @@ Python Questionary
 
 Python CSV Library
 
+Python PyTest
+
 ## Installation Guide
 
-Run these two commands in the terminal to install the required libraries before runnning the application:
+Run these commands in the terminal to install the required libraries before runnning the application:
 
 '''
 
@@ -25,6 +27,10 @@ Run these two commands in the terminal to install the required libraries before 
 '''
     
     pip install questionary
+
+'''
+
+    pip install pytest
 
 Run this command to start the application in the directory where the code is located:
 
@@ -58,6 +64,12 @@ In which it will ask the user to specify the daily rate sheet for the data. Then
 The application then uses some calculations such as the debt-to-income ratio, the loan-to-value-ratio, etc. in order to find the qualifying loans and filter them into a list.
 
 The user is then asked to confirm if they would like to save the list to a csv file of their choosing. The application then saves the file and exits. 
+
+To run the tests and make sure the app is running correctly and saving loans run this command in the terminal:
+
+'''
+
+    pytest
 
 ---
 
